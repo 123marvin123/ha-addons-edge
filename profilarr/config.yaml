@@ -16,4 +16,4 @@ map:
 ports:
   6868/tcp: 6868
 webui: http://[HOST]:[PORT:6868]/
-image: ghcr.io/123marvin123/addon-profilarr/{arch}
+image: ghcr.io/123marvin123/profilarr/{arch}
