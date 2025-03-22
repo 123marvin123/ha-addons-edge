@@ -1,0 +1,19 @@
+name: Profilarr
+version: 1.0.1
+slug: profilarr
+description: 'Configuration management tool for Radarr/Sonarr that automates importing
+  and version control of custom formats and quality profiles.
+
+  '
+url: https://dictionarry.dev/
+arch:
+- armv7
+- aarch64
+- amd64
+init: false
+map:
+- addon_config:rw
+ports:
+  6868/tcp: 6868
+webui: http://[HOST]:[PORT:6868]/
+image: ghcr.io/123marvin123/addon-profilarr/{arch}
