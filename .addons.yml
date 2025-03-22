@@ -4,4 +4,4 @@ addons:
   profilarr:
     repository: 123marvin123/addon-profilarr
     target: profilarr
-    image: ghcr.io/123marvin123/addon-profilarr/{arch}
+    image: ghcr.io/123marvin123/profilarr/{arch}
